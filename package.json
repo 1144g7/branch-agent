@@ -1,5 +1,40 @@
 {
-  "name": "branch-agent",
+  "name": "pi-branch-agent",
   "version": "0.1.0",
-  "type": "module"
+  "description": "Branch agent extension for Pi Coding Agent.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1144g7/branch-agent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/1144g7/branch-agent/issues"
+  },
+  "homepage": "https://github.com/1144g7/branch-agent#readme",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "branch-agent"
+  ],
+  "files": [
+    "index.ts",
+    "README.md",
+    "LICENSE",
+    "docs/images"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

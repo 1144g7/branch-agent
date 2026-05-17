@@ -2,6 +2,11 @@
 
 Branch Agent 是一个 Pi Coding Agent 扩展，用来从当前会话中启动独立的分支 Agent。它适合把探索、验证、并行实验这类任务拆到单独会话里执行，同时保留主会话的上下文。
 
+## 发布
+
+- npm: https://www.npmjs.com/package/pi-branch-agent
+- GitHub: https://github.com/1144g7/branch-agent
+
 ## 功能
 
 - 启动前台分支 Agent，并等待结果返回。
